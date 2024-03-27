@@ -6,6 +6,9 @@ pygame.font.init()
 
 WIDTH, HEIGHT = 950, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'logo.png'))
+img = pygame.image.load(icon_path)
+pygame.display.set_icon(img)
 pygame.display.set_caption("M3 - Space invader")
 
 # Load images

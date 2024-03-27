@@ -63,7 +63,6 @@ y_position = (screen_height - 450) // 2
 
 window.geometry(f"665x450+{x_position}+{y_position}")
 
-
 window.title("M3 - Games")
 icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__),'logo.ico'))
 window.iconbitmap(icon_path)
